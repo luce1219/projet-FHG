@@ -24,7 +24,10 @@ button {
     padding: 8px;
     margin-left: 5px;
     width: 25%;
-    box-sizing: border-box;
+    background-color: #2ED97D;
+    color: white;
+    border: 0;
+    border-radius: 2px;
 }
 
 ul {
@@ -43,13 +46,13 @@ li {
 }
 
 .task-complete {
-    margin-left: auto;
+    margin-left: 20px;
     cursor: pointer;
 }
 
 .completed {
     text-decoration: line-through;
-    color: #888;
+    color: #d9d9d9;
 }
 
 @media (max-width: 600px) {
@@ -71,14 +74,14 @@ li {
     }
 }
 
-h1{
+/* h1{
     border: 2px solid black;
     height: 40px;
     width: 400px;
     background-color: rgb(231, 170, 228);
     padding:  20px;
     border-radius: 40px;
-}
+} */
 @media (max-width: 600px) and (max-width: 900px) {
     /* Styles spécifiques pour les écrans de 600 pixels de large ou moins */
     h1 {
@@ -88,7 +91,7 @@ h1{
 div{
    
     width: 400px;
-    background-color: rgb(226, 43, 134);
+    background-color: #d9d9d9;
     padding:  20px;
     border-radius: 40px; 
 }
